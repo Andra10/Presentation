@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+    color: #fd2121;
+}
+
+h3 {
+    color: #353535;
+    font-size: 25px;
+}
+
+p {
+    color: #353535;
+    font-weight: 20px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.picture img{
+    width: 300px;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.hobbies-interests p{
+    padding: 8px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(192, 192, 192);
+    width: 30%;
+    border-radius: 15px;
+    align-content: center;
+    position: relative;
+}
+
+.skill {
+    background-color: #fd2121;
+    color: #fd2121;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming {
+    width: 80%;
+}
+
+.biking {
+    width: 95%;
+}
+
+.startup {
+    width: 75%;
+}
+
+.cooking {
+    width:85%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+h4 {
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+.textarea {
+    width: 20%;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #fd2121 ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+img {
+    width: 40px;
+}
